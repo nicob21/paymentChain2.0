@@ -29,4 +29,6 @@ Below, some details about how the smart-contracts works.
 
 + **Step5 -** ​ Run `npm run dev` and go to `localhost:8080`
 
-+ **Step6 -**  You can also run the contracts tests: `truffle test`
++ **Step6 -**  Configure your Metamask wallet on the right network: localhost:8545 (Ganache) or Ropsten.
+
++ **Step7 -**  You can also run the contracts tests: `truffle test`
