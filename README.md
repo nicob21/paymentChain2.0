@@ -1,6 +1,11 @@
 # Multi Address Payment System
 Nicolas BERNARD
 
+## Presentation
+Imagine a website that sell articles and wants to allow its clients to pay with ETH providing one account to each of them.
+The Master smart-contract can create new child accounts so the clients send ETH to them. Then the Master contract withdraw the funds of the children and can transfer it to its owner.
+Having one account for each client makes it easier to manage the incoming payments. Each payment is received on a different account that can be linked to a client.
+
 ## How it works
 Below, some details about how the smart-contracts works.
 + In order to generate one address per client, we use a Master smart-contract that deploy a child smart-contract on the ChildFactory.sol model.
